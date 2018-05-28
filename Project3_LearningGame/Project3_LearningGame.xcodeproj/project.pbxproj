@@ -72,7 +72,6 @@
 				66100DB120B3B28100439FB3 /* Assets.xcassets */,
 				66100DB320B3B28100439FB3 /* LaunchScreen.storyboard */,
 				66100DB620B3B28100439FB3 /* Info.plist */,
-				66889D1020BBC4F20029868C /* ChickenViewController.swift */,
 			);
 			path = Project3_LearningGame;
 			sourceTree = "<group>";
@@ -80,6 +79,7 @@
 		66889D1220BBC4F80029868C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				66889D1020BBC4F20029868C /* ChickenViewController.swift */,
 				66100DAC20B3B28000439FB3 /* ViewController.swift */,
 				66889D0020BBB4650029868C /* CowViewController.swift */,
 				66889D0820BBC4C80029868C /* SheepViewController.swift */,

@@ -8,9 +8,11 @@
 
 import UIKit
 import WebKit
+import AVFoundation
 
 class CowViewController: UIViewController {
-
+    
+    var audioPlayer:AVAudioPlayer!
     @IBOutlet weak var myWebView: UIWebView!
     
     override func viewDidLoad() {
@@ -29,4 +31,5 @@ class CowViewController: UIViewController {
         let url = URL(string: "http://www.youtube.com/embed/\(videoCode)")
         myWebView.loadRequest(URLRequest(url: url!))
     }
+    
 }
