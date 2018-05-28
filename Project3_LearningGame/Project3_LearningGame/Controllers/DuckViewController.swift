@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DuckViewController: UIViewController {
-
+    
+    var audioPlayer:AVAudioPlayer!
     @IBOutlet weak var myWebView: UIWebView!
     
     override func viewDidLoad() {
@@ -17,6 +19,14 @@ class DuckViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         getVideo(videoCode: "4TvCWY&t=397s")
+        
+        do{
+            let audioPath = Bundle.main.path(forResource: "Quack", ofType: "mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        }
+        catch {
+            //ERROR
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,4 +39,7 @@ class DuckViewController: UIViewController {
         myWebView.loadRequest(URLRequest(url: url!))
     }
 
+    @IBAction func playPressed(_ sender: Any) {
+        audioPlayer.play()
+    }
 }

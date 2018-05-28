@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PigViewController: UIViewController {
-
+    
+    var audioPlayer:AVAudioPlayer!
     @IBOutlet weak var myWebView: UIWebView!
     
     override func viewDidLoad() {
@@ -17,6 +19,14 @@ class PigViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         getVideo(videoCode: "2s7cz6p7jew")
+        
+        do{
+            let audioPath = Bundle.main.path(forResource: "Bark", ofType: "mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        }
+        catch {
+            //ERROR
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,4 +38,9 @@ class PigViewController: UIViewController {
         let url = URL(string: "http://www.youtube.com/embed/\(videoCode)")
         myWebView.loadRequest(URLRequest(url: url!))
     }
+
+    @IBAction func playPressed(_ sender: Any) {
+        audioPlayer.play()
+    }
+    
 }

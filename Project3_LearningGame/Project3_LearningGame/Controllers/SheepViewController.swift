@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class SheepViewController: UIViewController {
 
+    var audioPlayer:AVAudioPlayer!
     @IBOutlet weak var myWebView: UIWebView!
     
     override func viewDidLoad() {
@@ -17,6 +19,14 @@ class SheepViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         getVideo(videoCode: "1dttq5p0xUM")
+        
+        do{
+            let audioPath = Bundle.main.path(forResource: "Bleat", ofType: "mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        }
+        catch {
+            //ERROR
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,5 +37,9 @@ class SheepViewController: UIViewController {
     func getVideo(videoCode:String){
         let url = URL(string: "http://www.youtube.com/embed/\(videoCode)")
         myWebView.loadRequest(URLRequest(url: url!))
+    }
+    
+    @IBAction func playPressed(_ sender: Any) {
+        audioPlayer.play()
     }
 }

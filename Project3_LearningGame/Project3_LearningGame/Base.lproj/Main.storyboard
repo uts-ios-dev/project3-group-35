@@ -189,6 +189,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RD-ye-6Mg">
                                                         <rect key="frame" x="51" y="83" width="233" height="208.5"/>
                                                         <state key="normal" title="Button" image="Cow"/>
+                                                        <connections>
+                                                            <action selector="playPressed:" destination="OQc-Xk-UYt" eventType="touchUpInside" id="dWQ-Od-qHv"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -290,6 +293,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-u8-YlJ">
                                                         <rect key="frame" x="60" y="93" width="215" height="198.5"/>
                                                         <state key="normal" title="Button" image="Duck"/>
+                                                        <connections>
+                                                            <action selector="playPressed:" destination="xzl-pE-gVh" eventType="touchUpInside" id="80O-5z-rjJ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -373,6 +379,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYN-28-QBA">
                                                         <rect key="frame" x="53" y="87.5" width="229" height="204"/>
                                                         <state key="normal" title="Button" image="Pig"/>
+                                                        <connections>
+                                                            <action selector="playPressed:" destination="suR-D4-ame" eventType="touchUpInside" id="3fH-93-hKx"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -456,6 +465,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvd-e0-xEm">
                                                         <rect key="frame" x="59.5" y="89.5" width="216" height="202"/>
                                                         <state key="normal" title="Button" image="Chicken"/>
+                                                        <connections>
+                                                            <action selector="playPressed:" destination="yeu-IV-75H" eventType="touchUpInside" id="VsA-e9-baY"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -539,6 +551,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTp-qQ-3Ne">
                                                         <rect key="frame" x="49.5" y="77.5" width="236" height="214"/>
                                                         <state key="normal" title="Button" image="Horse"/>
+                                                        <connections>
+                                                            <action selector="playPressed:" destination="feZ-pW-W4X" eventType="touchUpInside" id="egT-Yx-oci"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -622,6 +637,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nX-Av-8iB">
                                                         <rect key="frame" x="44" y="80.5" width="247" height="211"/>
                                                         <state key="normal" title="Button" image="Sheep"/>
+                                                        <connections>
+                                                            <action selector="playPressed:" destination="aAN-6N-A09" eventType="touchUpInside" id="gJa-ZI-dwx"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>

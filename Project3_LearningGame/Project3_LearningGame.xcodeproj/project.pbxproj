@@ -12,6 +12,12 @@
 		66100DB020B3B28000439FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66100DAE20B3B28000439FB3 /* Main.storyboard */; };
 		66100DB220B3B28100439FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66100DB120B3B28100439FB3 /* Assets.xcassets */; };
 		66100DB520B3B28100439FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66100DB320B3B28100439FB3 /* LaunchScreen.storyboard */; };
+		6627207920BCC26E00F804D1 /* Bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207820BCC26E00F804D1 /* Bark.mp3 */; };
+		6627207B20BCC27B00F804D1 /* Bleat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207A20BCC27B00F804D1 /* Bleat.mp3 */; };
+		6627207D20BCC28400F804D1 /* Croak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207C20BCC28400F804D1 /* Croak.mp3 */; };
+		6627207F20BCC28D00F804D1 /* Moo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207E20BCC28D00F804D1 /* Moo.mp3 */; };
+		6627208120BCC29500F804D1 /* Neigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627208020BCC29500F804D1 /* Neigh.mp3 */; };
+		6627208320BCC29D00F804D1 /* Quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627208220BCC29D00F804D1 /* Quack.mp3 */; };
 		66889D0120BBB4650029868C /* CowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0020BBB4650029868C /* CowViewController.swift */; };
 		66889D0920BBC4C80029868C /* SheepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0820BBC4C80029868C /* SheepViewController.swift */; };
 		66889D0B20BBC4D10029868C /* PigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0A20BBC4D10029868C /* PigViewController.swift */; };
@@ -28,6 +34,12 @@
 		66100DB120B3B28100439FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66100DB420B3B28100439FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66100DB620B3B28100439FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6627207820BCC26E00F804D1 /* Bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bark.mp3; path = "../../../Images & Effects/Bark Sound/Bark.mp3"; sourceTree = "<group>"; };
+		6627207A20BCC27B00F804D1 /* Bleat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bleat.mp3; path = "../../../Images & Effects/Bleat Sound/Bleat.mp3"; sourceTree = "<group>"; };
+		6627207C20BCC28400F804D1 /* Croak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Croak.mp3; path = "../../../Images & Effects/Croak Sound/Croak.mp3"; sourceTree = "<group>"; };
+		6627207E20BCC28D00F804D1 /* Moo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Moo.mp3; path = "../../../Images & Effects/Moo Sound/Moo.mp3"; sourceTree = "<group>"; };
+		6627208020BCC29500F804D1 /* Neigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Neigh.mp3; path = "../../../Images & Effects/Neigh Sound/Neigh.mp3"; sourceTree = "<group>"; };
+		6627208220BCC29D00F804D1 /* Quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Quack.mp3; path = "../../../Images & Effects/Quack Sound/Quack.mp3"; sourceTree = "<group>"; };
 		66889D0020BBB4650029868C /* CowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowViewController.swift; sourceTree = "<group>"; };
 		66889D0820BBC4C80029868C /* SheepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepViewController.swift; sourceTree = "<group>"; };
 		66889D0A20BBC4D10029868C /* PigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +78,7 @@
 		66100DA920B3B28000439FB3 /* Project3_LearningGame */ = {
 			isa = PBXGroup;
 			children = (
+				6627207720BCC24400F804D1 /* Sound Effects */,
 				66889D1220BBC4F80029868C /* Controllers */,
 				66100DAA20B3B28000439FB3 /* AppDelegate.swift */,
 				66100DAE20B3B28000439FB3 /* Main.storyboard */,
@@ -74,6 +87,19 @@
 				66100DB620B3B28100439FB3 /* Info.plist */,
 			);
 			path = Project3_LearningGame;
+			sourceTree = "<group>";
+		};
+		6627207720BCC24400F804D1 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				6627207820BCC26E00F804D1 /* Bark.mp3 */,
+				6627207A20BCC27B00F804D1 /* Bleat.mp3 */,
+				6627207C20BCC28400F804D1 /* Croak.mp3 */,
+				6627207E20BCC28D00F804D1 /* Moo.mp3 */,
+				6627208020BCC29500F804D1 /* Neigh.mp3 */,
+				6627208220BCC29D00F804D1 /* Quack.mp3 */,
+			);
+			path = "Sound Effects";
 			sourceTree = "<group>";
 		};
 		66889D1220BBC4F80029868C /* Controllers */ = {
@@ -150,8 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				66100DB520B3B28100439FB3 /* LaunchScreen.storyboard in Resources */,
+				6627207D20BCC28400F804D1 /* Croak.mp3 in Resources */,
+				6627208120BCC29500F804D1 /* Neigh.mp3 in Resources */,
+				6627208320BCC29D00F804D1 /* Quack.mp3 in Resources */,
 				66100DB220B3B28100439FB3 /* Assets.xcassets in Resources */,
+				6627207920BCC26E00F804D1 /* Bark.mp3 in Resources */,
+				6627207B20BCC27B00F804D1 /* Bleat.mp3 in Resources */,
 				66100DB020B3B28000439FB3 /* Main.storyboard in Resources */,
+				6627207F20BCC28D00F804D1 /* Moo.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
