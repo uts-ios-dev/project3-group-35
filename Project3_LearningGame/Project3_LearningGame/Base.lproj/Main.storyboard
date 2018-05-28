@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3PB-K8-PEe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,18 +11,30 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="h6q-7R-wur">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project3_LearningGame" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController storyboardIdentifier="MainMenu" id="3PB-K8-PEe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="no2-k6-gqD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14U-JT-C3i">
+                                <rect key="frame" x="127" y="251" width="123" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Ages 0 - 1"/>
+                                <connections>
+                                    <segue destination="nXK-oj-6Ec" kind="presentation" id="Lxo-M3-Frw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="w30-mF-VuE"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7NG-Md-EEu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2967" y="484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W0O-FR-FEL">
@@ -32,63 +44,99 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wg2-ZL-hUl">
-                                <rect key="frame" x="43" y="124" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="OQc-Xk-UYt" kind="show" id="7WT-ch-inO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ua5-JQ-B6O">
-                                <rect key="frame" x="43" y="221" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="HDi-Vh-Wvy" kind="show" id="F8m-t0-pVr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV1-MR-aV7">
-                                <rect key="frame" x="43" y="335" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="gkQ-Mv-Fku" kind="show" id="8in-gE-Jed"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6u-W1-Y9h">
-                                <rect key="frame" x="259" y="124" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="4xA-ok-ooA" kind="show" id="CPI-Gc-hMB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfd-FV-iaD">
-                                <rect key="frame" x="259" y="221" width="46" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="9ua-Qr-TsI" kind="show" id="zWI-mt-G8n"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuQ-9i-z92">
-                                <rect key="frame" x="259" y="335" width="46" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="0oE-p3-TIg" kind="show" id="1EF-em-rna"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="2TV-8W-KKm">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="o1P-In-YfW">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="182.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="re3-Fm-6ne">
+                                                <rect key="frame" x="0.0" y="0.0" width="194.5" height="182.5"/>
+                                                <state key="normal" title="Button" image="Cow"/>
+                                                <connections>
+                                                    <segue destination="OQc-Xk-UYt" kind="show" id="kH6-Cf-bwD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="875-dm-F4M">
+                                                <rect key="frame" x="194.5" y="0.0" width="180.5" height="182.5"/>
+                                                <state key="normal" title="Button" image="Chicken"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eux-Ui-hhL">
+                                        <rect key="frame" x="0.0" y="182.5" width="375" height="200.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3n9-4K-Vt3">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="200.5"/>
+                                                <state key="normal" title="Button" image="Duck"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FS-z4-osi">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="200.5"/>
+                                                <state key="normal" title="Button" image="Horse"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fQl-Rj-3td">
+                                        <rect key="frame" x="0.0" y="383" width="375" height="191"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuq-za-0bC">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="191"/>
+                                                <state key="normal" title="Button" image="Pig"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjW-qq-AMP">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="191"/>
+                                                <state key="normal" title="Button" image="Sheep"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zvJ-iS-pvx">
+                                        <rect key="frame" x="0.0" y="574" width="375" height="29"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYW-hN-R6D">
+                                                <rect key="frame" x="149.5" y="0.0" width="76" height="29"/>
+                                                <state key="normal" title="Main Menu"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zvJ-iS-pvx" firstAttribute="top" secondItem="fQl-Rj-3td" secondAttribute="bottom" id="2tX-gd-f8u"/>
+                                    <constraint firstItem="fQl-Rj-3td" firstAttribute="top" secondItem="eux-Ui-hhL" secondAttribute="bottom" id="4Vt-Xa-spA"/>
+                                    <constraint firstAttribute="trailing" secondItem="eux-Ui-hhL" secondAttribute="trailing" id="7tA-5Q-5vY"/>
+                                    <constraint firstItem="eux-Ui-hhL" firstAttribute="top" secondItem="o1P-In-YfW" secondAttribute="bottom" id="8ca-Gs-5kF"/>
+                                    <constraint firstAttribute="trailing" secondItem="zvJ-iS-pvx" secondAttribute="trailing" id="Aj7-aE-Unh"/>
+                                    <constraint firstItem="o1P-In-YfW" firstAttribute="leading" secondItem="2TV-8W-KKm" secondAttribute="leading" id="CGo-X7-j2e"/>
+                                    <constraint firstAttribute="trailing" secondItem="fQl-Rj-3td" secondAttribute="trailing" id="Ekn-rO-yxM"/>
+                                    <constraint firstAttribute="trailing" secondItem="o1P-In-YfW" secondAttribute="trailing" id="MgQ-lP-tqf"/>
+                                    <constraint firstItem="fQl-Rj-3td" firstAttribute="leading" secondItem="2TV-8W-KKm" secondAttribute="leading" id="XDK-bO-mEo"/>
+                                    <constraint firstAttribute="bottom" secondItem="zvJ-iS-pvx" secondAttribute="bottom" id="YTV-1X-wHD"/>
+                                    <constraint firstItem="zvJ-iS-pvx" firstAttribute="leading" secondItem="2TV-8W-KKm" secondAttribute="leading" id="bVe-oW-TVv"/>
+                                    <constraint firstItem="eux-Ui-hhL" firstAttribute="leading" secondItem="2TV-8W-KKm" secondAttribute="leading" id="hYP-71-P2m"/>
+                                    <constraint firstItem="o1P-In-YfW" firstAttribute="top" secondItem="2TV-8W-KKm" secondAttribute="top" id="rS1-j8-gf2"/>
+                                    <constraint firstAttribute="bottom" secondItem="zvJ-iS-pvx" secondAttribute="bottom" id="tEp-f6-Mi6"/>
+                                    <constraint firstItem="zvJ-iS-pvx" firstAttribute="top" secondItem="fQl-Rj-3td" secondAttribute="bottom" id="thI-Ty-JcM"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FQ0-8Q-90g" firstAttribute="bottom" secondItem="2TV-8W-KKm" secondAttribute="bottom" id="AXw-IN-TrX"/>
+                            <constraint firstItem="2TV-8W-KKm" firstAttribute="trailing" secondItem="FQ0-8Q-90g" secondAttribute="trailing" id="Nju-gK-MXV"/>
+                            <constraint firstItem="2TV-8W-KKm" firstAttribute="leading" secondItem="FQ0-8Q-90g" secondAttribute="leading" id="cRx-S3-N80"/>
+                            <constraint firstItem="FQ0-8Q-90g" firstAttribute="trailing" secondItem="2TV-8W-KKm" secondAttribute="trailing" id="dcC-WL-4fb"/>
+                            <constraint firstItem="2TV-8W-KKm" firstAttribute="top" secondItem="FQ0-8Q-90g" secondAttribute="top" id="m27-p4-0Do"/>
+                            <constraint firstItem="2TV-8W-KKm" firstAttribute="bottom" secondItem="FQ0-8Q-90g" secondAttribute="bottom" id="sP4-7L-05c"/>
+                            <constraint firstItem="2TV-8W-KKm" firstAttribute="leading" secondItem="FQ0-8Q-90g" secondAttribute="leading" id="tUH-ci-yWC"/>
+                            <constraint firstItem="2TV-8W-KKm" firstAttribute="top" secondItem="FQ0-8Q-90g" secondAttribute="top" id="zy4-KS-h6R"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FQ0-8Q-90g"/>
                     </view>
                     <navigationItem key="navigationItem" id="mRL-2k-dNO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tlg-9I-2wJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="484.40779610194909"/>
+            <point key="canvasLocation" x="5058.3999999999996" y="483.50824587706148"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zY2-2f-0X3">
@@ -103,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Je-vw-KOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2469" y="567"/>
+            <point key="canvasLocation" x="6224.8000000000002" y="566.26686656671666"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AFH-hL-BAX">
@@ -118,37 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uSU-EB-pzO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3133" y="568"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Gcq-3e-QzM">
-            <objects>
-                <viewController id="gkQ-Mv-Fku" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Mzm-o1-BD9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="GnI-Zy-t8a"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Epo-mO-vHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2474" y="1226"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="BvI-k3-11Q">
-            <objects>
-                <viewController id="0oE-p3-TIg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zKe-1l-zDW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="qtf-NI-mnU"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aN8-pA-RgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3148" y="1226"/>
+            <point key="canvasLocation" x="6888.8000000000002" y="567.16641679160421"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gME-dB-gmw">
@@ -157,13 +175,32 @@
                     <view key="view" contentMode="scaleToFill" id="LPK-OQ-xFQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="si3-GK-BFb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8n-O2-DFj">
+                                        <rect key="frame" x="123.5" y="0.0" width="128.5" height="603"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="66"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="si3-GK-BFb" firstAttribute="leading" secondItem="Vnn-8r-dn1" secondAttribute="leading" id="9cH-9K-5EZ"/>
+                            <constraint firstItem="si3-GK-BFb" firstAttribute="top" secondItem="Vnn-8r-dn1" secondAttribute="top" id="ExX-mB-7TK"/>
+                            <constraint firstItem="Vnn-8r-dn1" firstAttribute="trailing" secondItem="si3-GK-BFb" secondAttribute="trailing" id="t5B-Qo-ewf"/>
+                            <constraint firstItem="Vnn-8r-dn1" firstAttribute="bottom" secondItem="si3-GK-BFb" secondAttribute="bottom" id="y5q-do-J1n"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Vnn-8r-dn1"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNy-Xm-5TW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2474" y="-99"/>
+            <point key="canvasLocation" x="6229.6000000000004" y="-99.400299850074973"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Md3-6Q-A50">
@@ -178,39 +215,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNh-gJ-aeY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3127" y="-98"/>
+            <point key="canvasLocation" x="6882.3999999999996" y="-98.50074962518741"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="5OX-Sq-vCS">
+        <scene sceneID="cb5-BG-8Kc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1fp-lL-w7p" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nXK-oj-6Ec" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GsC-pQ-KFw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lkS-iN-sPs">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="p0X-J6-JcW" kind="relationship" relationship="rootViewController" id="XIC-lS-CnF"/>
+                        <segue destination="p0X-J6-JcW" kind="relationship" relationship="rootViewController" id="Od9-Sx-l1v"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ccE-uf-b6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OWz-Kp-OQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989.60000000000002" y="485.30734632683664"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="D8z-vJ-jyT">
-            <objects>
-                <viewController id="o2w-Et-EQU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XBb-x8-vr2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Cwh-HQ-1Vt"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vCh-6u-SQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="4119.1999999999998" y="483.50824587706148"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Chicken" width="162" height="171"/>
+        <image name="Cow" width="179" height="189"/>
+        <image name="Duck" width="161" height="161"/>
+        <image name="Horse" width="182" height="208"/>
+        <image name="Pig" width="175" height="176"/>
+        <image name="Sheep" width="193" height="198"/>
+    </resources>
 </document>
