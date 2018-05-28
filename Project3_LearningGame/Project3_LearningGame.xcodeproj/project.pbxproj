@@ -12,6 +12,12 @@
 		66100DB020B3B28000439FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66100DAE20B3B28000439FB3 /* Main.storyboard */; };
 		66100DB220B3B28100439FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66100DB120B3B28100439FB3 /* Assets.xcassets */; };
 		66100DB520B3B28100439FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66100DB320B3B28100439FB3 /* LaunchScreen.storyboard */; };
+		66889D0120BBB4650029868C /* CowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0020BBB4650029868C /* CowViewController.swift */; };
+		66889D0920BBC4C80029868C /* SheepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0820BBC4C80029868C /* SheepViewController.swift */; };
+		66889D0B20BBC4D10029868C /* PigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0A20BBC4D10029868C /* PigViewController.swift */; };
+		66889D0D20BBC4D90029868C /* DuckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0C20BBC4D90029868C /* DuckViewController.swift */; };
+		66889D0F20BBC4E70029868C /* HorseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0E20BBC4E70029868C /* HorseViewController.swift */; };
+		66889D1120BBC4F20029868C /* ChickenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D1020BBC4F20029868C /* ChickenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		66100DB120B3B28100439FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66100DB420B3B28100439FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66100DB620B3B28100439FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66889D0020BBB4650029868C /* CowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowViewController.swift; sourceTree = "<group>"; };
+		66889D0820BBC4C80029868C /* SheepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepViewController.swift; sourceTree = "<group>"; };
+		66889D0A20BBC4D10029868C /* PigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigViewController.swift; sourceTree = "<group>"; };
+		66889D0C20BBC4D90029868C /* DuckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckViewController.swift; sourceTree = "<group>"; };
+		66889D0E20BBC4E70029868C /* HorseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseViewController.swift; sourceTree = "<group>"; };
+		66889D1020BBC4F20029868C /* ChickenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		66100DA920B3B28000439FB3 /* Project3_LearningGame */ = {
 			isa = PBXGroup;
 			children = (
+				66889D1220BBC4F80029868C /* Controllers */,
 				66100DAA20B3B28000439FB3 /* AppDelegate.swift */,
-				66100DAC20B3B28000439FB3 /* ViewController.swift */,
 				66100DAE20B3B28000439FB3 /* Main.storyboard */,
 				66100DB120B3B28100439FB3 /* Assets.xcassets */,
 				66100DB320B3B28100439FB3 /* LaunchScreen.storyboard */,
 				66100DB620B3B28100439FB3 /* Info.plist */,
+				66889D1020BBC4F20029868C /* ChickenViewController.swift */,
 			);
 			path = Project3_LearningGame;
+			sourceTree = "<group>";
+		};
+		66889D1220BBC4F80029868C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66100DAC20B3B28000439FB3 /* ViewController.swift */,
+				66889D0020BBB4650029868C /* CowViewController.swift */,
+				66889D0820BBC4C80029868C /* SheepViewController.swift */,
+				66889D0A20BBC4D10029868C /* PigViewController.swift */,
+				66889D0C20BBC4D90029868C /* DuckViewController.swift */,
+				66889D0E20BBC4E70029868C /* HorseViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66889D0920BBC4C80029868C /* SheepViewController.swift in Sources */,
+				66889D0B20BBC4D10029868C /* PigViewController.swift in Sources */,
+				66889D1120BBC4F20029868C /* ChickenViewController.swift in Sources */,
+				66889D0F20BBC4E70029868C /* HorseViewController.swift in Sources */,
 				66100DAD20B3B28000439FB3 /* ViewController.swift in Sources */,
 				66100DAB20B3B28000439FB3 /* AppDelegate.swift in Sources */,
+				66889D0120BBB4650029868C /* CowViewController.swift in Sources */,
+				66889D0D20BBC4D90029868C /* DuckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
