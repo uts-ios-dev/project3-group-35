@@ -28,6 +28,7 @@ class CowViewController: UIViewController {
         catch {
             //ERROR
         }
+        
     }
 
     override func didReceiveMemoryWarning() {

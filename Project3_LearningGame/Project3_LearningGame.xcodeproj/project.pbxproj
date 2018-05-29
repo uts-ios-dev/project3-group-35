@@ -18,6 +18,11 @@
 		6627207F20BCC28D00F804D1 /* Moo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207E20BCC28D00F804D1 /* Moo.mp3 */; };
 		6627208120BCC29500F804D1 /* Neigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627208020BCC29500F804D1 /* Neigh.mp3 */; };
 		6627208320BCC29D00F804D1 /* Quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627208220BCC29D00F804D1 /* Quack.mp3 */; };
+		6627208720BCD42D00F804D1 /* HorseSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6627208620BCD42D00F804D1 /* HorseSoundViewController.swift */; };
+		6627208920BCD7FD00F804D1 /* Right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627208820BCD7FC00F804D1 /* Right.mp3 */; };
+		6627208B20BCD80900F804D1 /* Wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627208A20BCD80900F804D1 /* Wrong.mp3 */; };
+		6627208D20BCE90500F804D1 /* CowSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6627208C20BCE90500F804D1 /* CowSoundViewController.swift */; };
+		6627208F20BCF52600F804D1 /* DuckSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6627208E20BCF52600F804D1 /* DuckSoundViewController.swift */; };
 		66889D0120BBB4650029868C /* CowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0020BBB4650029868C /* CowViewController.swift */; };
 		66889D0920BBC4C80029868C /* SheepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0820BBC4C80029868C /* SheepViewController.swift */; };
 		66889D0B20BBC4D10029868C /* PigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66889D0A20BBC4D10029868C /* PigViewController.swift */; };
@@ -40,6 +45,11 @@
 		6627207E20BCC28D00F804D1 /* Moo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Moo.mp3; path = "../../../Images & Effects/Moo Sound/Moo.mp3"; sourceTree = "<group>"; };
 		6627208020BCC29500F804D1 /* Neigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Neigh.mp3; path = "../../../Images & Effects/Neigh Sound/Neigh.mp3"; sourceTree = "<group>"; };
 		6627208220BCC29D00F804D1 /* Quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Quack.mp3; path = "../../../Images & Effects/Quack Sound/Quack.mp3"; sourceTree = "<group>"; };
+		6627208620BCD42D00F804D1 /* HorseSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseSoundViewController.swift; sourceTree = "<group>"; };
+		6627208820BCD7FC00F804D1 /* Right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Right.mp3; path = "../../../Images & Effects/Right Answer Sound/Right.mp3"; sourceTree = "<group>"; };
+		6627208A20BCD80900F804D1 /* Wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wrong.mp3; path = "../../../Images & Effects/Wrong Answer Sound/Wrong.mp3"; sourceTree = "<group>"; };
+		6627208C20BCE90500F804D1 /* CowSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowSoundViewController.swift; sourceTree = "<group>"; };
+		6627208E20BCF52600F804D1 /* DuckSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckSoundViewController.swift; sourceTree = "<group>"; };
 		66889D0020BBB4650029868C /* CowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowViewController.swift; sourceTree = "<group>"; };
 		66889D0820BBC4C80029868C /* SheepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepViewController.swift; sourceTree = "<group>"; };
 		66889D0A20BBC4D10029868C /* PigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +108,8 @@
 				6627207E20BCC28D00F804D1 /* Moo.mp3 */,
 				6627208020BCC29500F804D1 /* Neigh.mp3 */,
 				6627208220BCC29D00F804D1 /* Quack.mp3 */,
+				6627208820BCD7FC00F804D1 /* Right.mp3 */,
+				6627208A20BCD80900F804D1 /* Wrong.mp3 */,
 			);
 			path = "Sound Effects";
 			sourceTree = "<group>";
@@ -112,6 +124,9 @@
 				66889D0A20BBC4D10029868C /* PigViewController.swift */,
 				66889D0C20BBC4D90029868C /* DuckViewController.swift */,
 				66889D0E20BBC4E70029868C /* HorseViewController.swift */,
+				6627208620BCD42D00F804D1 /* HorseSoundViewController.swift */,
+				6627208C20BCE90500F804D1 /* CowSoundViewController.swift */,
+				6627208E20BCF52600F804D1 /* DuckSoundViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,12 +193,14 @@
 				66100DB520B3B28100439FB3 /* LaunchScreen.storyboard in Resources */,
 				6627207D20BCC28400F804D1 /* Croak.mp3 in Resources */,
 				6627208120BCC29500F804D1 /* Neigh.mp3 in Resources */,
+				6627208920BCD7FD00F804D1 /* Right.mp3 in Resources */,
 				6627208320BCC29D00F804D1 /* Quack.mp3 in Resources */,
 				66100DB220B3B28100439FB3 /* Assets.xcassets in Resources */,
 				6627207920BCC26E00F804D1 /* Bark.mp3 in Resources */,
 				6627207B20BCC27B00F804D1 /* Bleat.mp3 in Resources */,
 				66100DB020B3B28000439FB3 /* Main.storyboard in Resources */,
 				6627207F20BCC28D00F804D1 /* Moo.mp3 in Resources */,
+				6627208B20BCD80900F804D1 /* Wrong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,9 +215,12 @@
 				66889D0B20BBC4D10029868C /* PigViewController.swift in Sources */,
 				66889D1120BBC4F20029868C /* ChickenViewController.swift in Sources */,
 				66889D0F20BBC4E70029868C /* HorseViewController.swift in Sources */,
+				6627208D20BCE90500F804D1 /* CowSoundViewController.swift in Sources */,
 				66100DAD20B3B28000439FB3 /* ViewController.swift in Sources */,
+				6627208F20BCF52600F804D1 /* DuckSoundViewController.swift in Sources */,
 				66100DAB20B3B28000439FB3 /* AppDelegate.swift in Sources */,
 				66889D0120BBB4650029868C /* CowViewController.swift in Sources */,
+				6627208720BCD42D00F804D1 /* HorseSoundViewController.swift in Sources */,
 				66889D0D20BBC4D90029868C /* DuckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
