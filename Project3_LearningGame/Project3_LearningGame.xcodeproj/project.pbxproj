@@ -12,6 +12,7 @@
 		66100DB020B3B28000439FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66100DAE20B3B28000439FB3 /* Main.storyboard */; };
 		66100DB220B3B28100439FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66100DB120B3B28100439FB3 /* Assets.xcassets */; };
 		66100DB520B3B28100439FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66100DB320B3B28100439FB3 /* LaunchScreen.storyboard */; };
+		661BEC4620C21F79006E7BA3 /* SheepSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BEC4520C21F79006E7BA3 /* SheepSoundViewController.swift */; };
 		6627207920BCC26E00F804D1 /* Bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207820BCC26E00F804D1 /* Bark.mp3 */; };
 		6627207B20BCC27B00F804D1 /* Bleat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207A20BCC27B00F804D1 /* Bleat.mp3 */; };
 		6627207D20BCC28400F804D1 /* Croak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6627207C20BCC28400F804D1 /* Croak.mp3 */; };
@@ -39,6 +40,7 @@
 		66100DB120B3B28100439FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66100DB420B3B28100439FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66100DB620B3B28100439FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661BEC4520C21F79006E7BA3 /* SheepSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepSoundViewController.swift; sourceTree = "<group>"; };
 		6627207820BCC26E00F804D1 /* Bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bark.mp3; path = "../../../Images & Effects/Bark Sound/Bark.mp3"; sourceTree = "<group>"; };
 		6627207A20BCC27B00F804D1 /* Bleat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bleat.mp3; path = "../../../Images & Effects/Bleat Sound/Bleat.mp3"; sourceTree = "<group>"; };
 		6627207C20BCC28400F804D1 /* Croak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Croak.mp3; path = "../../../Images & Effects/Croak Sound/Croak.mp3"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				6627208620BCD42D00F804D1 /* HorseSoundViewController.swift */,
 				6627208C20BCE90500F804D1 /* CowSoundViewController.swift */,
 				6627208E20BCF52600F804D1 /* DuckSoundViewController.swift */,
+				661BEC4520C21F79006E7BA3 /* SheepSoundViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				66100DAB20B3B28000439FB3 /* AppDelegate.swift in Sources */,
 				66889D0120BBB4650029868C /* CowViewController.swift in Sources */,
 				6627208720BCD42D00F804D1 /* HorseSoundViewController.swift in Sources */,
+				661BEC4620C21F79006E7BA3 /* SheepSoundViewController.swift in Sources */,
 				66889D0D20BBC4D90029868C /* DuckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

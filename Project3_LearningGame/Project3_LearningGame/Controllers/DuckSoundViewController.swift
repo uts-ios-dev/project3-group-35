@@ -7,13 +7,44 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DuckSoundViewController: UIViewController {
-
+    
+    var audioPlayer:AVAudioPlayer!
+    var audioPlayerRight:AVAudioPlayer!
+    var audioPlayerWrong:AVAudioPlayer!
+    @IBOutlet weak var nextPressed: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextPressed.isEnabled = false
+        
+        do{
+            let audioPath = Bundle.main.path(forResource: "Quack", ofType: "mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        }
+        catch {
+            //ERROR
+        }
+        
+        do{
+            let audioPathRight = Bundle.main.path(forResource: "Right", ofType: "mp3")
+            try audioPlayerRight = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPathRight!) as URL)
+        }
+        catch {
+            //ERROR
+        }
+        
+        do{
+            let audioPathWrong = Bundle.main.path(forResource: "Wrong", ofType: "mp3")
+            try audioPlayerWrong = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPathWrong!) as URL)
+        }
+        catch {
+            //ERROR
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +52,29 @@ class DuckSoundViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func duckPlayPressed(_ sender: Any) {
+        audioPlayer.play()
     }
-    */
-
+    
+    @IBAction func duckPressed(_ sender: Any) {
+        audioPlayerRight.play()
+        nextPressed.isEnabled = true
+    }
+    
+    @IBAction func pigPressed(_ sender: Any) {
+        audioPlayerWrong.play()
+    }
+    
+    @IBAction func chickenPressed(_ sender: Any) {
+        audioPlayerWrong.play()
+    }
+    
+    @IBAction func cowPressed(_ sender: Any) {
+        audioPlayerWrong.play()
+    }
+    
+    @IBAction func nextPressed(_ sender: Any) {
+        audioPlayerRight.stop()
+    }
+    
 }

@@ -1,35 +1,36 @@
+
 //
-//  HorseSoundViewController.swift
+//  SheepSoundViewController.swift
 //  Project3_LearningGame
 //
-//  Created by Adam Zeaiter on 29/5/18.
+//  Created by Adam Zeaiter on 2/6/18.
 //  Copyright © 2018 Adam Zeaiter. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 
-class HorseSoundViewController: UIViewController {
+class SheepSoundViewController: UIViewController {
     
     var audioPlayer:AVAudioPlayer!
     var audioPlayerRight:AVAudioPlayer!
     var audioPlayerWrong:AVAudioPlayer!
-    @IBOutlet weak var nextPressed: UIButton!
+    @IBOutlet weak var endPressed: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        nextPressed.isEnabled = false
+        endPressed.isEnabled = false
         
         do{
-            let audioPath = Bundle.main.path(forResource: "Neigh", ofType: "mp3")
+            let audioPath = Bundle.main.path(forResource: "Bleat", ofType: "mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
         }
         catch {
             //ERROR
         }
-
+        
         do{
             let audioPathRight = Bundle.main.path(forResource: "Right", ofType: "mp3")
             try audioPlayerRight = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPathRight!) as URL)
@@ -52,29 +53,28 @@ class HorseSoundViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func horsePlayPressed(_ sender: Any) {
+    @IBAction func sheepSoundPressed(_ sender: Any) {
         audioPlayer.play()
     }
     
-    @IBAction func duckPressed(_ sender: Any) {
+    @IBAction func chickenPressed(_ sender: Any) {
         audioPlayerWrong.play()
     }
     
-    @IBAction func horsePressed(_ sender: Any) {
+    @IBAction func sheepPressed(_ sender: Any) {
         audioPlayerRight.play()
-        nextPressed.isEnabled = true
+        endPressed.isEnabled = true
+    }
+    
+    @IBAction func horsePressed(_ sender: Any) {
+        audioPlayerWrong.play()
     }
     
     @IBAction func pigPressed(_ sender: Any) {
         audioPlayerWrong.play()
     }
     
-    @IBAction func sheepPressed(_ sender: Any) {
-        audioPlayerWrong.play()
-    }
-    
-    @IBAction func nextPressed(_ sender: Any) {
+    @IBAction func endPressed(_ sender: Any) {
         audioPlayerRight.stop()
     }
-    
 }
