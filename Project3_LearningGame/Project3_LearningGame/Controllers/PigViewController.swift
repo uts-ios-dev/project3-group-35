@@ -21,7 +21,7 @@ class PigViewController: UIViewController {
         getVideo(videoCode: "2s7cz6p7jew")
         
         do{
-            let audioPath = Bundle.main.path(forResource: "Bark", ofType: "mp3")
+            let audioPath = Bundle.main.path(forResource: "PigNoise", ofType: "mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
         }
         catch {

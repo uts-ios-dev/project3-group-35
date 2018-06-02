@@ -21,7 +21,7 @@ class ChickenViewController: UIViewController {
         getVideo(videoCode: "FpFd_9VfO3Q")
         
         do{
-            let audioPath = Bundle.main.path(forResource: "Croak", ofType: "mp3")
+            let audioPath = Bundle.main.path(forResource: "ChickenNoise", ofType: "mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
         }
         catch {
