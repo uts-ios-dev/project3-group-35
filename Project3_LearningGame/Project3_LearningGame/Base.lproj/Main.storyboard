@@ -19,26 +19,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14U-JT-C3i">
-                                <rect key="frame" x="108" y="180" width="161" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Animal Game"/>
-                                <connections>
-                                    <segue destination="4py-C3-5JZ" kind="presentation" id="meN-AO-j9b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnt-6w-tvB">
-                                <rect key="frame" x="109" y="367" width="157" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Sound Game"/>
-                                <connections>
-                                    <segue destination="MjA-8E-pgi" kind="presentation" id="ATj-TH-zhO"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="R9E-SF-Wjj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14U-JT-C3i">
+                                        <rect key="frame" x="27.5" y="0.0" width="320" height="215.5"/>
+                                        <state key="normal" title="Learning" image="button_learning-game"/>
+                                        <connections>
+                                            <segue destination="4py-C3-5JZ" kind="presentation" id="meN-AO-j9b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oip-DO-Uwx">
+                                        <rect key="frame" x="38.5" y="215.5" width="298" height="216"/>
+                                        <state key="normal" title="Letter" image="button_letter-game"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnt-6w-tvB">
+                                        <rect key="frame" x="36" y="431.5" width="303" height="215.5"/>
+                                        <state key="normal" title="Sound" image="button_sound-game"/>
+                                        <connections>
+                                            <segue destination="MjA-8E-pgi" kind="presentation" id="ATj-TH-zhO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="R9E-SF-Wjj" firstAttribute="bottom" secondItem="w30-mF-VuE" secondAttribute="bottom" id="7kH-mT-z9h"/>
+                            <constraint firstItem="R9E-SF-Wjj" firstAttribute="trailing" secondItem="w30-mF-VuE" secondAttribute="trailing" id="A48-0b-xn0"/>
+                            <constraint firstItem="R9E-SF-Wjj" firstAttribute="leading" secondItem="w30-mF-VuE" secondAttribute="leading" id="M2y-lM-d2g"/>
+                            <constraint firstItem="R9E-SF-Wjj" firstAttribute="top" secondItem="w30-mF-VuE" secondAttribute="top" id="arb-oe-8BS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="w30-mF-VuE"/>
                     </view>
                 </viewController>
@@ -1198,6 +1209,9 @@
         <image name="Pig" width="175" height="176"/>
         <image name="PlaySound" width="202" height="175"/>
         <image name="Sheep" width="193" height="198"/>
+        <image name="button_learning-game" width="250" height="50"/>
+        <image name="button_letter-game" width="250" height="50"/>
+        <image name="button_sound-game" width="250" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="z8E-cm-UvI"/>
