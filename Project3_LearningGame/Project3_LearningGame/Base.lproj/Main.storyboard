@@ -90,18 +90,18 @@
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2TV-8W-KKm">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o1P-In-YfW">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="o1P-In-YfW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="185.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="re3-Fm-6ne">
-                                                <rect key="frame" x="0.0" y="13" width="187.5" height="160"/>
+                                                <rect key="frame" x="0.0" y="13" width="185" height="160"/>
                                                 <state key="normal" title="Button" image="Cow"/>
                                                 <connections>
                                                     <segue destination="OQc-Xk-UYt" kind="show" id="jqw-DW-dWJ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="875-dm-F4M">
-                                                <rect key="frame" x="187.5" y="13" width="187.5" height="160"/>
+                                                <rect key="frame" x="190" y="13" width="185" height="160"/>
                                                 <state key="normal" title="Button" image="Chicken"/>
                                                 <connections>
                                                     <segue destination="yeu-IV-75H" kind="show" id="Iwn-VL-nQX"/>
@@ -109,18 +109,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="eux-Ui-hhL">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eux-Ui-hhL">
                                         <rect key="frame" x="0.0" y="185.5" width="375" height="185.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3n9-4K-Vt3">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="185.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="185" height="185.5"/>
                                                 <state key="normal" title="Button" image="Duck"/>
                                                 <connections>
                                                     <segue destination="xzl-pE-gVh" kind="show" id="tFL-dR-2hh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FS-z4-osi">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="185.5"/>
+                                                <rect key="frame" x="190" y="0.0" width="185" height="185.5"/>
                                                 <state key="normal" title="Button" image="Horse"/>
                                                 <connections>
                                                     <segue destination="feZ-pW-W4X" kind="show" id="oO9-7U-7CY"/>
@@ -128,18 +128,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fQl-Rj-3td">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fQl-Rj-3td">
                                         <rect key="frame" x="0.0" y="371" width="375" height="185.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuq-za-0bC">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="185.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="185" height="185.5"/>
                                                 <state key="normal" title="Button" image="Pig"/>
                                                 <connections>
                                                     <segue destination="suR-D4-ame" kind="show" id="irP-OU-ywd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjW-qq-AMP">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="185.5"/>
+                                                <rect key="frame" x="190" y="0.0" width="185" height="185.5"/>
                                                 <state key="normal" title="Button" image="Sheep"/>
                                                 <connections>
                                                     <segue destination="aAN-6N-A09" kind="show" id="RL0-Bg-Jsn"/>
@@ -747,18 +747,18 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dM3-X5-Kqw">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dM3-X5-Kqw">
                                         <rect key="frame" x="0.0" y="162" width="375" height="210"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvy-ja-gOn">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Duck"/>
                                                 <connections>
                                                     <action selector="duckPressed:" destination="MjA-8E-pgi" eventType="touchUpInside" id="lPV-kk-AhG"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTb-bI-NXj">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Horse"/>
                                                 <connections>
                                                     <action selector="horsePressed:" destination="MjA-8E-pgi" eventType="touchUpInside" id="3Mn-Qi-43E"/>
@@ -766,18 +766,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MCi-Es-qDY">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MCi-Es-qDY">
                                         <rect key="frame" x="0.0" y="376" width="375" height="209.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFZ-nf-SkZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="0.0" y="24.5" width="177.5" height="160"/>
                                                 <state key="normal" title="Button" image="Pig"/>
                                                 <connections>
                                                     <action selector="pigPressed:" destination="MjA-8E-pgi" eventType="touchUpInside" id="1ts-7v-sA1"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFn-MU-XF6">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="197.5" y="24.5" width="177.5" height="160"/>
                                                 <state key="normal" title="Button" image="Sheep"/>
                                                 <connections>
                                                     <action selector="sheepPressed:" destination="MjA-8E-pgi" eventType="touchUpInside" id="Uop-7I-9TX"/>
@@ -785,18 +785,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="mnQ-xp-NNy">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="mnQ-xp-NNy">
                                         <rect key="frame" x="0.0" y="589.5" width="375" height="57.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiJ-F0-mx8">
-                                                <rect key="frame" x="0.0" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="0.0" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Main Menu" image="MainMenu"/>
                                                 <connections>
                                                     <segue destination="3PB-K8-PEe" kind="presentation" id="yYs-0F-JTC"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZy-dN-wuL">
-                                                <rect key="frame" x="188" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="242.5" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Next" image="Next"/>
                                                 <connections>
                                                     <action selector="nextPressed:" destination="MjA-8E-pgi" eventType="touchUpInside" id="4k8-iO-Bfx"/>
@@ -888,18 +888,18 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uPw-ji-ucj">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uPw-ji-ucj">
                                         <rect key="frame" x="0.0" y="162" width="375" height="210"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEF-la-xEM">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Horse"/>
                                                 <connections>
                                                     <action selector="horsePressed:" destination="pet-ey-Vtv" eventType="touchUpInside" id="RpL-vw-TZ1"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0t-hq-DPD">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Chicken"/>
                                                 <connections>
                                                     <action selector="chickenPressed:" destination="pet-ey-Vtv" eventType="touchUpInside" id="PuC-lM-LNI"/>
@@ -907,18 +907,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4uL-ix-1J6">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4uL-ix-1J6">
                                         <rect key="frame" x="0.0" y="376" width="375" height="209.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcT-0y-2CZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="209.5"/>
                                                 <state key="normal" title="Button" image="Cow"/>
                                                 <connections>
                                                     <action selector="cowPressed:" destination="pet-ey-Vtv" eventType="touchUpInside" id="8QW-tn-TLv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cc-gA-o8J">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="209.5"/>
                                                 <state key="normal" title="Button" image="Sheep"/>
                                                 <connections>
                                                     <action selector="sheepPressed:" destination="pet-ey-Vtv" eventType="touchUpInside" id="1GI-0k-jgQ"/>
@@ -926,18 +926,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="EBu-m2-3an">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="EBu-m2-3an">
                                         <rect key="frame" x="0.0" y="589.5" width="375" height="57.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjP-tT-Urb">
-                                                <rect key="frame" x="0.0" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="0.0" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Main Menu" image="MainMenu"/>
                                                 <connections>
                                                     <segue destination="3PB-K8-PEe" kind="presentation" id="kCf-bu-iQ6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxY-N0-aLC">
-                                                <rect key="frame" x="188" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="242.5" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Next" image="Next"/>
                                                 <connections>
                                                     <action selector="nextPressed:" destination="pet-ey-Vtv" eventType="touchUpInside" id="iKE-UJ-c0U"/>
@@ -1011,18 +1011,18 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d1h-D9-JAh">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="d1h-D9-JAh">
                                         <rect key="frame" x="0.0" y="162" width="375" height="210"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NiA-fi-wz1">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Duck"/>
                                                 <connections>
                                                     <action selector="duckPressed:" destination="DHU-Ur-CsD" eventType="touchUpInside" id="nxW-EB-fPF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWR-my-qPf">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Pig"/>
                                                 <connections>
                                                     <action selector="pigPressed:" destination="DHU-Ur-CsD" eventType="touchUpInside" id="vnJ-f7-wwP"/>
@@ -1030,18 +1030,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8XZ-lV-dZw">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8XZ-lV-dZw">
                                         <rect key="frame" x="0.0" y="376" width="375" height="209.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WN5-Sx-dWV">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="209.5"/>
                                                 <state key="normal" title="Button" image="Chicken"/>
                                                 <connections>
                                                     <action selector="chickenPressed:" destination="DHU-Ur-CsD" eventType="touchUpInside" id="Iqn-da-cbL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDN-Si-6cu">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="209.5"/>
                                                 <state key="normal" title="Button" image="Cow"/>
                                                 <connections>
                                                     <action selector="cowPressed:" destination="DHU-Ur-CsD" eventType="touchUpInside" id="huR-Gf-ldd"/>
@@ -1049,18 +1049,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="EBF-wW-zui">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="EBF-wW-zui">
                                         <rect key="frame" x="0.0" y="589.5" width="375" height="57.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOm-kW-tOP">
-                                                <rect key="frame" x="0.0" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="0.0" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Main Menu" image="MainMenu"/>
                                                 <connections>
                                                     <segue destination="3PB-K8-PEe" kind="presentation" id="Wy9-bD-dBy"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KS5-Q6-n66">
-                                                <rect key="frame" x="188" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="242.5" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Next" image="Next"/>
                                                 <connections>
                                                     <action selector="nextPressed:" destination="DHU-Ur-CsD" eventType="touchUpInside" id="IDi-N5-p3Y"/>
@@ -1134,18 +1134,18 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="T0J-22-2zk">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="T0J-22-2zk">
                                         <rect key="frame" x="0.0" y="162" width="375" height="210"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xr-Tb-Pgz">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Chicken"/>
                                                 <connections>
                                                     <action selector="chickenPressed:" destination="Gn0-pI-54r" eventType="touchUpInside" id="3ag-q0-led"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vun-8n-UOi">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="210"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="210"/>
                                                 <state key="normal" title="Button" image="Sheep"/>
                                                 <connections>
                                                     <action selector="sheepPressed:" destination="Gn0-pI-54r" eventType="touchUpInside" id="q5Q-pD-kYT"/>
@@ -1153,18 +1153,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nem-dW-YNQ">
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nem-dW-YNQ">
                                         <rect key="frame" x="0.0" y="376" width="375" height="209.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyY-4S-kAR">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="209.5"/>
                                                 <state key="normal" title="Button" image="Horse"/>
                                                 <connections>
                                                     <action selector="horsePressed:" destination="Gn0-pI-54r" eventType="touchUpInside" id="dbg-vK-brv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQF-Px-hsV">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="209.5"/>
+                                                <rect key="frame" x="197.5" y="0.0" width="177.5" height="209.5"/>
                                                 <state key="normal" title="Button" image="Pig"/>
                                                 <connections>
                                                     <action selector="pigPressed:" destination="Gn0-pI-54r" eventType="touchUpInside" id="5lg-yc-BFz"/>
@@ -1172,15 +1172,15 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="bU1-oh-cRS">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="bU1-oh-cRS">
                                         <rect key="frame" x="0.0" y="589.5" width="375" height="57.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqz-ZC-3nO">
-                                                <rect key="frame" x="0.0" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="0.0" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="Main Menu" image="MainMenu"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mG4-OC-UFY">
-                                                <rect key="frame" x="188" y="9" width="187" height="40"/>
+                                                <rect key="frame" x="242.5" y="9" width="132.5" height="40"/>
                                                 <state key="normal" title="End" image="End"/>
                                                 <connections>
                                                     <action selector="endPressed:" destination="Gn0-pI-54r" eventType="touchUpInside" id="Mrg-CK-l3W"/>
@@ -2029,6 +2029,6 @@
         <image name="button_sound-game" width="250" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yYs-0F-JTC"/>
+        <segue reference="k5n-f5-dhe"/>
     </inferredMetricsTieBreakers>
 </document>
